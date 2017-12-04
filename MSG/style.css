@@ -1,0 +1,173 @@
+body { margin:0;
+  padding:0;
+  font-family: "Lato";
+}
+#mapDiv {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 100%;
+  max-height1: 100%;
+}
+.reset {
+  padding-left: 63em;
+  font-size: smaller;
+  color: #ccc;
+}
+.ui-brusadfadsadsfah {
+  background: #f8f8f8;
+  position: absolute;
+  bottom: 35px;
+  right: 10px;
+  left: 10px;
+  height: 80px;
+  opacity: 0.5;
+}
+.brush .extent {
+  stroke:#fff;
+  fill-opacity:0.125;
+  shape-rendering: crispEdges;
+}
+.chart {
+  display: inline;
+  height: 150px;
+  margin-bottom: 10px;
+  background: black; /*#f8f8f8;*/
+  position: absolute;
+  bottom: 25px;
+  right: 10px;
+  left: 10px;
+  opacity: 0.8;
+  padding: 10px;
+  width: 1110px;
+  border-radius: 4px;
+}
+.title {
+  color: #fff;
+  margin-left: 12px;
+  margin-bottom: 1px;
+  font-size: 16px;
+}
+path {
+  shape-rendering: crispEdges;
+}
+.background.bar {
+  fill: #ccc;
+}
+.foreground.bar{
+  fill: red;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #fff; /*#000*/
+  shape-rendering: crispEdges;
+}
+.axis text {
+  /*font: 10px sans-serif;*/
+  font-size: 12px;
+  font-family: Lato;
+  fill: #fff;
+  stroke: none;
+}
+.brush rect.extent {
+  fill: steelblue;
+  fill-opacity: .125;
+}
+.brush .resize path {
+  fill: #eee;
+  stroke: #666;
+}
+.select {
+  font-size: 14px;
+  display: flex;
+  border1: 1px solid black;
+  margin-left: 205px;
+  margin-top: -21px;
+}
+.select label {
+  display: flex;
+  color: #fff;
+}
+.animControls {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border1: 1px solid white;
+  width: 600px;
+  height: 25px;
+}
+.animControls button {
+  display: inline-block;
+  cursor: default;
+  background-color: black;
+  border: 1px solid gray;
+  border-radius: 4px;
+  text-align: left;
+  padding: 2px 4px 2px 4px;
+  margin-right: 15px;
+  font-size: 13px;
+  color: #ccc;
+  font-family: Lato;
+}
+.titleDiv {
+  position: absolute;
+  top: 0px;
+  margin: auto;
+  width: 100%;
+  font-family: Lato;
+  color: white;
+  border1: 1px solid white;
+  opacity: .5;
+}
+.titleDiv h1 {
+  text-align: left;
+  font-weight: normal;
+  margin-left: 20px;
+  margin-top: 70px;
+  margin-bottom: 0px;
+  color: black;
+}
+.titleDiv h4 {
+  text-align: left;
+  font-weight: normal;
+  margin-top: 5px;
+  margin-left: 20px;
+  color: black;
+}
+.titleDiv h5 {
+  text-align: left;
+  font-weight: normal;
+  margin-top: 5px;
+  margin-left: 20px;
+  color: black;
+}
+.infoDiv {
+  position: absolute;
+  bottom: 230px;
+  left: 940px;
+  color: white;
+  border1: 1px solid darkgray;
+  border-radius: 4px;
+  background: black;
+  opacity: 0.8;
+  padding: 10px;
+  font-size: 14px;
+}
+.infoDiv table {
+  width: 180px;
+}
+.infoDiv .dead {
+  color: red;
+}
+.infoDiv .injured {
+  color: orange;
+}
+.infoDiv .data {
+  text-align: right;
+}
+.source a {
+  color: gray;
+}
